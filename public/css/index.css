@@ -1,95 +1,177 @@
 .task1 {
+  transition-property: transform, transition-timing-function;
+  transition-duration: 1s;
 }
 
 .task1:hover {
+  transform: rotate(270deg);
+  transition-timing-function: ease-in;
 }
 
 .task2 {
+  transition-property: transform, transition-timing-function;
+  transition-duration: 1s;
 }
 
 .task2:hover {
+  transform: rotateX(135deg);
+  transition-timing-function: linear;
 }
 
 .task3 {
+  transition-property: transform, transition-timing-function;
+  transition-duration: 1s;
 }
 
 .task3:hover {
+  transform: rotateY(45deg);
+  transition-timing-function: ease-out;
 }
 
 .task4 {
+  transition-property: transform, transition-timing-function;
+  transition-duration: 1s;
 }
 
 .task4:hover {
+  transform: scale(1.3);
+  transition-timing-function: linear;
 }
 
 .task5 {
+  transition-property: transform, transition-timing-function;
+  transition-duration: 1s;
 }
 
 .task5:hover {
+  transform: scaleX(1.5);
+  transition-timing-function: ease-out;
 }
 
 .task6 {
+  transition-property: transform, transition-timing-function;
+  transition-duration: 1s;
 }
 
 .task6:hover {
+  transform: scaleY(0.5);
+  transition-timing-function: ease-in;
 }
 
 .task7 {
+  transition-property: transform, transition-timing-function;
+  transition-duration: 1s;
 }
 
 .task7:hover {
+  transform: skew(30deg);
+  transition-timing-function: ease-out;
 }
 
 .task8 {
+  transition-property: transform, transition-timing-function;
+  transition-duration: 1s;
 }
 
 .task8:hover {
+  transform: skewX(25deg);
+  transition-timing-function: ease-out;
 }
 
 .task9 {
+  transition-property: transform, transition-timing-function;
+  transition-duration: 1s;
 }
 
 .task9:hover {
+  transform: skewY(20deg);
+  transition-timing-function: ease-in;
 }
 
 .task10 {
+  transition-property: transform, transition-timing-function;
+  transition-duration: 1s;
 }
 
 .task10:hover {
+  transform: translate(60px, 40px);
+  transition-timing-function: ease-in;
 }
 
 .task11 {
+  transition-property: transform, transition-timing-function;
+  transition-duration: 1s;
 }
 
 .task11:hover {
+  transform: translateX(50px);
+  transition-timing-function: ease-out;
 }
 
 .task12 {
+  transition-property: transform, transition-timing-function;
+  transition-duration: 1s;
 }
 
 .task12:hover {
+  transform: translateY(30px);
+  transition-timing-function: linear;
 }
 
 .task13 {
+  transition-property: transform, transition-timing-function;
+  transition-duration: 1s;
 }
 
 .task13:hover {
+  transform: translate3d(20px, 20px, 20px)
+    rotate3d(2, 2, 2, 90deg);
+  transition-timing-function: ease-out;
 }
 
 .task14 {
+  transition-property: transform, transition-timing-function;
+  transition-duration: 1s;
 }
 
 .task14:hover {
+  transform: translateZ(40px) rotate3d(2, 3, 3, 45deg);
+  transition-timing-function: ease-in;
 }
 
 .task15 {
+  transition-property: transform, transition-timing-function;
+  transition-duration: 1s;
 }
 
 .task15:hover {
+  transform: matrix(0.4, 1.1, 1.1, 0.4, 1, 1);
+  transition-timing-function: ease-out;
 }
 
 .task16 {
+  transition-property: transform, transition-timing-function;
+  transition-duration: 1s;
 }
 
 .task16:hover {
+  transform: matrix3d(
+    0.5,
+    0,
+    -0.866025,
+    0,
+    0.595877,
+    1.2,
+    -1.03209,
+    0,
+    0.866025,
+    0,
+    0.5,
+    0,
+    25.9808,
+    0,
+    15,
+    1
+  );
+  transition-timing-function: linear;
 }
